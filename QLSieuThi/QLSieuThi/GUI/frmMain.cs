@@ -46,19 +46,6 @@ namespace QLSieuThi.GUI
             //lblTen.Text = "Chào bạn: " +DTO.ConnectDatabase.NameLogin;
         }
 
-        private void btnDauSach_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void btnDocGia_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void btnMuonTra_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void trangChủToolStripMenuItem_Click(object sender, EventArgs e)
         {
             GUI.Intro it = new Intro();
@@ -80,6 +67,22 @@ namespace QLSieuThi.GUI
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblTime.Text = DateTime.Now.ToString();
+        }
+
+        private void QLKhachHang_Click(object sender, EventArgs e)
+        {
+            GUI.frmKhachHang it = new frmKhachHang();
+            it.MdiParent = this;
+            it.WindowState = FormWindowState.Maximized;
+            it.Show();
+        }
+
+        private void btnBanHang_Click(object sender, EventArgs e)
+        {
+            GUI.frmBanHang it = new frmBanHang();
+            it.MdiParent = this;
+            it.WindowState = FormWindowState.Maximized;
+            it.Show();
         }
     }
 }
