@@ -84,6 +84,7 @@ namespace QLSieuThi.GUI
             it.WindowState = FormWindowState.Maximized;
             it.Show();
         }
+<<<<<<< HEAD
 
         private void btnNhanVien_Click(object sender, EventArgs e)
         {
@@ -101,5 +102,7 @@ namespace QLSieuThi.GUI
             it.Show();
 
         }
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
     }
 }

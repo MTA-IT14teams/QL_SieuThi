@@ -14,10 +14,13 @@ c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuTh
 c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.Intro.resources
 c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.flash.resources
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\GitHub\QL_SieuThi\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe.config
 C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\GitHub\QL_SieuThi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
 C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\GitHub\QL_SieuThi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
 =======
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
 C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe.config
 C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
 C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
@@ -34,6 +37,7 @@ C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi
 C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe.licenses
 C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmKhachHang.resources
 C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmBanHang.resources
+<<<<<<< HEAD
 >>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
 C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\GitHub\QL_SieuThi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\GitHub\QL_SieuThi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.flash.resources
@@ -50,3 +54,5 @@ C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\GitHub\QL_SieuThi\QL_SieuThi\QLS
 C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\GitHub\QL_SieuThi\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.pdb
 C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\GitHub\QL_SieuThi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmNhanVien.resources
 C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\GitHub\QL_SieuThi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmKhoHang.resources
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
