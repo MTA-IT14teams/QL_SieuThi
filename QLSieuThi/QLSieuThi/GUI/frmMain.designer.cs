@@ -155,7 +155,11 @@
             this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
 =======
 >>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
 >>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
@@ -183,7 +187,11 @@
             this.btnKhoHang.Click += new System.EventHandler(this.btnKhoHang_Click);
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnKhoHang.Click += new System.EventHandler(this.btnKhoHang_Click);
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
 =======
 >>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
 >>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a

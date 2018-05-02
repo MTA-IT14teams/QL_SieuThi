@@ -77,8 +77,11 @@
       <DependentUpon>frmKhachHang.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
+=======
 >>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
     <Compile Include="GUI\frmKhoHang.cs">
       <SubType>Form</SubType>
@@ -87,6 +90,11 @@
       <DependentUpon>frmKhoHang.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
 =======
 =======
 >>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
@@ -110,8 +118,11 @@
       <DependentUpon>frmNhanVien.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
+=======
 >>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
     <Compile Include="GUI\Intro.cs">
       <SubType>Form</SubType>
@@ -146,9 +157,13 @@
     </EmbeddedResource>
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     <EmbeddedResource Include="GUI\frmKhoHang.resx">
       <DependentUpon>frmKhoHang.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
 =======
 >>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
 >>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a

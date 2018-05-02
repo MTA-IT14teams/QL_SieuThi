@@ -85,8 +85,11 @@ namespace QLSieuThi.GUI
             it.Show();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
+=======
 >>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
 
         private void btnNhanVien_Click(object sender, EventArgs e)
@@ -106,6 +109,11 @@ namespace QLSieuThi.GUI
 
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
 =======
 =======
 >>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
