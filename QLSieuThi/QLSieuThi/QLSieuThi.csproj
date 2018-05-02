@@ -64,6 +64,33 @@
     <Compile Include="GUI\frmConnect.designer.cs">
       <DependentUpon>frmConnect.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\frmBanHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmBanHang.Designer.cs">
+      <DependentUpon>frmBanHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmKhachHang.Designer.cs">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </Compile>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
+    <Compile Include="GUI\frmKhoHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmKhoHang.Designer.cs">
+      <DependentUpon>frmKhoHang.cs</DependentUpon>
+    </Compile>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
     <Compile Include="GUI\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,37 +103,66 @@
     <Compile Include="GUI\frmMain.designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\frmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmNhanVien.Designer.cs">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </Compile>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
     <Compile Include="GUI\Intro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\Intro.designer.cs">
       <DependentUpon>Intro.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\rbfMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\rbfMain.Designer.cs">
-      <DependentUpon>rbfMain.cs</DependentUpon>
-    </Compile>
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLSieuThiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLSieuThiDataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="GUI\flash.resx">
       <DependentUpon>flash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmConnect.resx">
       <DependentUpon>frmConnect.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmBanHang.resx">
+      <DependentUpon>frmBanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmKhachHang.resx">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="GUI\frmKhoHang.resx">
+      <DependentUpon>frmKhoHang.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+<<<<<<< HEAD
+    <EmbeddedResource Include="GUI\frmKhoHang.resx">
+      <DependentUpon>frmKhoHang.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
     <EmbeddedResource Include="GUI\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmNhanVien.resx">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Intro.resx">
       <DependentUpon>Intro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\rbfMain.resx">
-      <DependentUpon>rbfMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -127,6 +183,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="QLSieuThiDataSet.xsc">
+      <DependentUpon>QLSieuThiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLSieuThiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLSieuThiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLSieuThiDataSet.xss">
+      <DependentUpon>QLSieuThiDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

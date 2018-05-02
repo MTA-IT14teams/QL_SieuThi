@@ -51,7 +51,7 @@
             this.txtPassWord.Name = "txtPassWord";
             this.txtPassWord.Size = new System.Drawing.Size(271, 26);
             this.txtPassWord.TabIndex = 11;
-            this.txtPassWord.Text = "1304";
+            this.txtPassWord.Text = "123";
             this.txtPassWord.UseSystemPasswordChar = true;
             this.txtPassWord.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPassWord_KeyDown);
             // 

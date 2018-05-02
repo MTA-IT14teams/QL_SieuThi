@@ -46,19 +46,6 @@ namespace QLSieuThi.GUI
             //lblTen.Text = "Chào bạn: " +DTO.ConnectDatabase.NameLogin;
         }
 
-        private void btnDauSach_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void btnDocGia_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void btnMuonTra_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void trangChủToolStripMenuItem_Click(object sender, EventArgs e)
         {
             GUI.Intro it = new Intro();
@@ -81,5 +68,47 @@ namespace QLSieuThi.GUI
         {
             lblTime.Text = DateTime.Now.ToString();
         }
+
+        private void QLKhachHang_Click(object sender, EventArgs e)
+        {
+            GUI.frmKhachHang it = new frmKhachHang();
+            it.MdiParent = this;
+            it.WindowState = FormWindowState.Maximized;
+            it.Show();
+        }
+
+        private void btnBanHang_Click(object sender, EventArgs e)
+        {
+            GUI.frmBanHang it = new frmBanHang();
+            it.MdiParent = this;
+            it.WindowState = FormWindowState.Maximized;
+            it.Show();
+        }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
+
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            GUI.frmNhanVien it = new frmNhanVien();
+            it.MdiParent = this;
+            it.WindowState = FormWindowState.Maximized;
+            it.Show();
+        }
+
+        private void btnKhoHang_Click(object sender, EventArgs e)
+        {
+            GUI.frmKhoHang it = new frmKhoHang();
+            it.MdiParent = this;
+            it.WindowState = FormWindowState.Maximized;
+            it.Show();
+
+        }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0d82fcd47885fd23fad8cbd52ba989827305b79a
+>>>>>>> ffe2e398d8e1b9b222f4187d921755bfcfef8e9a
     }
 }
