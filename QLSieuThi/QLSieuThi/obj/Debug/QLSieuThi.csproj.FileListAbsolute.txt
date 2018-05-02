@@ -13,3 +13,17 @@ c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuTh
 c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe.licenses
 c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.Intro.resources
 c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.flash.resources
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe.config
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csprojResolveAssemblyReference.cache
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.flash.resources
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmConnect.resources
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmHangHoa.resources
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmLogin.resources
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmMain.resources
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.Intro.resources
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.rbfMain.resources
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.Properties.Resources.resources
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.GenerateResource.Cache
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe.licenses
