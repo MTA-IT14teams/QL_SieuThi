@@ -84,5 +84,21 @@ namespace QLSieuThi.GUI
             it.WindowState = FormWindowState.Maximized;
             it.Show();
         }
+
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            GUI.frmNhanVien it = new frmNhanVien();
+            it.MdiParent = this;
+            it.WindowState = FormWindowState.Maximized;
+            it.Show();
+        }
+
+        private void btnKhoHang_Click(object sender, EventArgs e)
+        {
+            GUI.frmKhoHang it = new frmKhoHang();
+            it.MdiParent = this;
+            it.WindowState = FormWindowState.Maximized;
+            it.Show();
+        }
     }
 }

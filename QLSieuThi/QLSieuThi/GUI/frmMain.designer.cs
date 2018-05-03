@@ -151,6 +151,7 @@
             this.btnNhanVien.Name = "btnNhanVien";
             this.btnNhanVien.Size = new System.Drawing.Size(152, 22);
             this.btnNhanVien.Text = "Nhân Viên";
+            this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
             // 
             // btnKhachHang
             // 
@@ -171,6 +172,7 @@
             this.btnKhoHang.Name = "btnKhoHang";
             this.btnKhoHang.Size = new System.Drawing.Size(152, 22);
             this.btnKhoHang.Text = "Kho Hàng";
+            this.btnKhoHang.Click += new System.EventHandler(this.btnKhoHang_Click);
             // 
             // btnHangHoa
             // 
