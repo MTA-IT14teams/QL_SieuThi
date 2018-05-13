@@ -84,5 +84,13 @@ namespace QLSieuThi.GUI
             it.WindowState = FormWindowState.Maximized;
             it.Show();
         }
+
+        private void btnHangHoa_Click(object sender, EventArgs e)
+        {
+            GUI.FrmHangHoa it = new FrmHangHoa();
+            it.MdiParent = this;
+            it.WindowState = FormWindowState.Maximized;
+            it.Show();
+        }
     }
 }

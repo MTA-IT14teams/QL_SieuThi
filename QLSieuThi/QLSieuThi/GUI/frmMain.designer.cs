@@ -177,6 +177,7 @@
             this.btnHangHoa.Name = "btnHangHoa";
             this.btnHangHoa.Size = new System.Drawing.Size(152, 22);
             this.btnHangHoa.Text = "Hàng Hóa";
+            this.btnHangHoa.Click += new System.EventHandler(this.btnHangHoa_Click);
             // 
             // dữLiệuThốngKêToolStripMenuItem
             // 
