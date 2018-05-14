@@ -37,6 +37,10 @@
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.dgvKhoHang = new System.Windows.Forms.DataGridView();
+            this.MaKho = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenKho = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaThuKho = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtMaThuKho = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtTenKho = new System.Windows.Forms.TextBox();
@@ -45,10 +49,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.MaKho = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenKho = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MaThuKho = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhoHang)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +57,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(406, 9);
+            this.label1.Location = new System.Drawing.Point(406, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(260, 37);
             this.label1.TabIndex = 39;
@@ -71,7 +71,7 @@
             this.btnThem.ForeColor = System.Drawing.Color.Black;
             this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(317, 92);
+            this.btnThem.Location = new System.Drawing.Point(299, 92);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(90, 42);
             this.btnThem.TabIndex = 56;
@@ -87,7 +87,7 @@
             this.btnSua.ForeColor = System.Drawing.Color.Black;
             this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(413, 92);
+            this.btnSua.Location = new System.Drawing.Point(395, 92);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(94, 42);
             this.btnSua.TabIndex = 57;
@@ -103,7 +103,7 @@
             this.btnXoa.ForeColor = System.Drawing.Color.Black;
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(513, 92);
+            this.btnXoa.Location = new System.Drawing.Point(495, 92);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(91, 42);
             this.btnXoa.TabIndex = 58;
@@ -119,7 +119,7 @@
             this.btnRefresh.ForeColor = System.Drawing.Color.Black;
             this.btnRefresh.Image = ((System.Drawing.Image)(resources.GetObject("btnRefresh.Image")));
             this.btnRefresh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRefresh.Location = new System.Drawing.Point(610, 92);
+            this.btnRefresh.Location = new System.Drawing.Point(592, 92);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(97, 42);
             this.btnRefresh.TabIndex = 61;
@@ -161,81 +161,12 @@
             this.MaThuKho,
             this.DiaChi});
             this.dgvKhoHang.GridColor = System.Drawing.SystemColors.ControlLight;
-            this.dgvKhoHang.Location = new System.Drawing.Point(317, 140);
+            this.dgvKhoHang.Location = new System.Drawing.Point(301, 140);
             this.dgvKhoHang.Name = "dgvKhoHang";
-            this.dgvKhoHang.Size = new System.Drawing.Size(724, 398);
+            this.dgvKhoHang.Size = new System.Drawing.Size(740, 398);
             this.dgvKhoHang.TabIndex = 64;
             this.dgvKhoHang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKhoHang_CellContentClick);
             this.dgvKhoHang.Click += new System.EventHandler(this.dgvKhoHang_Click);
-            // 
-            // txtMaThuKho
-            // 
-            this.txtMaThuKho.Location = new System.Drawing.Point(108, 304);
-            this.txtMaThuKho.Name = "txtMaThuKho";
-            this.txtMaThuKho.Size = new System.Drawing.Size(203, 20);
-            this.txtMaThuKho.TabIndex = 76;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 303);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 19);
-            this.label4.TabIndex = 75;
-            this.label4.Text = "Mã Thủ Kho";
-            // 
-            // txtTenKho
-            // 
-            this.txtTenKho.Location = new System.Drawing.Point(108, 224);
-            this.txtTenKho.Name = "txtTenKho";
-            this.txtTenKho.Size = new System.Drawing.Size(203, 20);
-            this.txtTenKho.TabIndex = 74;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(14, 223);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 19);
-            this.label3.TabIndex = 73;
-            this.label3.Text = "Tên Kho";
-            // 
-            // txtMaKho
-            // 
-            this.txtMaKho.Location = new System.Drawing.Point(108, 140);
-            this.txtMaKho.Name = "txtMaKho";
-            this.txtMaKho.Size = new System.Drawing.Size(203, 20);
-            this.txtMaKho.TabIndex = 72;
-            this.txtMaKho.TextChanged += new System.EventHandler(this.txtMaKho_TextChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(14, 141);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 19);
-            this.label2.TabIndex = 71;
-            this.label2.Text = "Mã Kho";
-            // 
-            // txtDiaChi
-            // 
-            this.txtDiaChi.Location = new System.Drawing.Point(108, 386);
-            this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(203, 20);
-            this.txtDiaChi.TabIndex = 78;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 387);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 19);
-            this.label5.TabIndex = 77;
-            this.label5.Text = "Địa Chỉ";
             // 
             // MaKho
             // 
@@ -265,11 +196,80 @@
             this.DiaChi.HeaderText = "Địa Chỉ";
             this.DiaChi.Name = "DiaChi";
             // 
+            // txtMaThuKho
+            // 
+            this.txtMaThuKho.Location = new System.Drawing.Point(108, 304);
+            this.txtMaThuKho.Name = "txtMaThuKho";
+            this.txtMaThuKho.Size = new System.Drawing.Size(172, 20);
+            this.txtMaThuKho.TabIndex = 76;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(14, 303);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(88, 19);
+            this.label4.TabIndex = 75;
+            this.label4.Text = "Mã Thủ Kho";
+            // 
+            // txtTenKho
+            // 
+            this.txtTenKho.Location = new System.Drawing.Point(108, 224);
+            this.txtTenKho.Name = "txtTenKho";
+            this.txtTenKho.Size = new System.Drawing.Size(172, 20);
+            this.txtTenKho.TabIndex = 74;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(14, 223);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 19);
+            this.label3.TabIndex = 73;
+            this.label3.Text = "Tên Kho";
+            // 
+            // txtMaKho
+            // 
+            this.txtMaKho.Location = new System.Drawing.Point(108, 140);
+            this.txtMaKho.Name = "txtMaKho";
+            this.txtMaKho.Size = new System.Drawing.Size(172, 20);
+            this.txtMaKho.TabIndex = 72;
+            this.txtMaKho.TextChanged += new System.EventHandler(this.txtMaKho_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(14, 141);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 19);
+            this.label2.TabIndex = 71;
+            this.label2.Text = "Mã Kho";
+            // 
+            // txtDiaChi
+            // 
+            this.txtDiaChi.Location = new System.Drawing.Point(108, 386);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(172, 20);
+            this.txtDiaChi.TabIndex = 78;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(14, 387);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 19);
+            this.label5.TabIndex = 77;
+            this.label5.Text = "Địa Chỉ";
+            // 
             // frmKhoHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1053, 488);
             this.Controls.Add(this.txtDiaChi);
             this.Controls.Add(this.label5);

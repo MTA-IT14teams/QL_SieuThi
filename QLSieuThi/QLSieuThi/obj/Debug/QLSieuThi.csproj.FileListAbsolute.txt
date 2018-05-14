@@ -48,3 +48,5 @@ C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLS
 C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.Properties.Resources.resources
 C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.GenerateResource.Cache
 C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe.licenses
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csprojResolveAssemblyReference.cache
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmHangHoa.resources
