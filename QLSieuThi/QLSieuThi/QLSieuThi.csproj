@@ -70,11 +70,19 @@
     <Compile Include="GUI\frmBanHang.Designer.cs">
       <DependentUpon>frmBanHang.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="GUI\FrmHangHoa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\FrmHangHoa.designer.cs">
       <DependentUpon>FrmHangHoa.cs</DependentUpon>
+=======
+    <Compile Include="GUI\frmHangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmHangHoa.designer.cs">
+      <DependentUpon>frmHangHoa.cs</DependentUpon>
+>>>>>>> 1df2d7e38d5e4bd4a613f0254c0842a9898caa20
     </Compile>
     <Compile Include="GUI\frmKhachHang.cs">
       <SubType>Form</SubType>
@@ -123,8 +131,13 @@
     <EmbeddedResource Include="GUI\frmBanHang.resx">
       <DependentUpon>frmBanHang.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="GUI\FrmHangHoa.resx">
       <DependentUpon>FrmHangHoa.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="GUI\frmHangHoa.resx">
+      <DependentUpon>frmHangHoa.cs</DependentUpon>
+>>>>>>> 1df2d7e38d5e4bd4a613f0254c0842a9898caa20
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmKhachHang.resx">
       <DependentUpon>frmKhachHang.cs</DependentUpon>

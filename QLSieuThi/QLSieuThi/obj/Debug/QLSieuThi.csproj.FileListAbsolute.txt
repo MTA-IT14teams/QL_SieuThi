@@ -48,6 +48,7 @@ C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLS
 C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.Properties.Resources.resources
 C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.GenerateResource.Cache
 C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe.licenses
+<<<<<<< HEAD
 D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe.config
 D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
 D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
@@ -67,3 +68,7 @@ D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.GenerateRe
 D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe.licenses
 D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe
 D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.pdb
+=======
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csprojResolveAssemblyReference.cache
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmHangHoa.resources
+>>>>>>> 1df2d7e38d5e4bd4a613f0254c0842a9898caa20

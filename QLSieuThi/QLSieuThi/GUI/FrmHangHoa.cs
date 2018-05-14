@@ -11,9 +11,15 @@ using System.Data.SqlClient;
 
 namespace QLSieuThi.GUI
 {
+<<<<<<< HEAD
     public partial class FrmHangHoa : Form
     {
         public FrmHangHoa()
+=======
+    public partial class frmHangHoa : Form
+    {
+        public frmHangHoa()
+>>>>>>> 1df2d7e38d5e4bd4a613f0254c0842a9898caa20
         {
             InitializeComponent();
         }
