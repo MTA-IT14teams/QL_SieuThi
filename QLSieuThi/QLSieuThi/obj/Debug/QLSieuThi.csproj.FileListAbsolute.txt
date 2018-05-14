@@ -1,0 +1,52 @@
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe.config
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csprojResolveAssemblyReference.cache
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmConnect.resources
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmLogin.resources
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmMain.resources
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.Properties.Resources.resources
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.GenerateResource.Cache
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.pdb
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.rbfMain.resources
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe.licenses
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.Intro.resources
+c:\users\vuman\OneDrive\Documents\Visual Studio 2013\Projects\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.flash.resources
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe.config
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.pdb
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.flash.resources
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmConnect.resources
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmBanHang.resources
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmKhachHang.resources
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmKhoHang.resources
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmLogin.resources
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmMain.resources
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmNhanVien.resources
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.Intro.resources
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.Properties.Resources.resources
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.GenerateResource.Cache
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe.licenses
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe.config
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.pdb
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csprojResolveAssemblyReference.cache
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.flash.resources
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmConnect.resources
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmBanHang.resources
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmKhachHang.resources
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmKhoHang.resources
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmLogin.resources
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmMain.resources
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmNhanVien.resources
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.Intro.resources
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.Properties.Resources.resources
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.GenerateResource.Cache
+C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe.licenses
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csprojResolveAssemblyReference.cache
+C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmHangHoa.resources
