@@ -52,7 +52,7 @@
             this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TuoiKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Diachi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).BeginInit();
@@ -276,7 +276,7 @@
             this.STT,
             this.MaKH,
             this.TenKH,
-            this.TuoiKH,
+            this.Diachi,
             this.GioiTinh});
             this.dgvKhachHang.Location = new System.Drawing.Point(290, 90);
             this.dgvKhachHang.Name = "dgvKhachHang";
@@ -319,12 +319,12 @@
             this.TenKH.HeaderText = "Tên Khách Hàng";
             this.TenKH.Name = "TenKH";
             // 
-            // TuoiKH
+            // Diachi
             // 
-            this.TuoiKH.DataPropertyName = "TuoiKH";
-            this.TuoiKH.HeaderText = "Tuổi Khách Hàng";
-            this.TuoiKH.Name = "TuoiKH";
-            this.TuoiKH.Width = 200;
+            this.Diachi.DataPropertyName = "Diachi";
+            this.Diachi.HeaderText = "Địa chỉ";
+            this.Diachi.Name = "Diachi";
+            this.Diachi.Width = 200;
             // 
             // GioiTinh
             // 
@@ -387,7 +387,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn STT;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaKH;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenKH;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TuoiKH;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Diachi;
         private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh;
     }
 }

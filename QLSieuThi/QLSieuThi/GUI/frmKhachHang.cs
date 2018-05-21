@@ -78,7 +78,7 @@ namespace QLSieuThi.GUI
             txtTenKH.DataBindings.Add("Text", dgvKhachHang.DataSource, "TenKH");
 
             txtTuoiKH.DataBindings.Clear();
-            txtTuoiKH.DataBindings.Add("Text", dgvKhachHang.DataSource, "TuoiKH");
+            txtTuoiKH.DataBindings.Add("Text", dgvKhachHang.DataSource, "Diachi");
 
             cboGioiTinh.DataBindings.Clear();
             cboGioiTinh.DataBindings.Add("Text", dgvKhachHang.DataSource, "GioiTinh");
