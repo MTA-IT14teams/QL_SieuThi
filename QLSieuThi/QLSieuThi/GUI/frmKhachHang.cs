@@ -73,13 +73,10 @@ namespace QLSieuThi.GUI
         {
             txtMaKH.DataBindings.Clear();
             txtMaKH.DataBindings.Add("Text", dgvKhachHang.DataSource, "MaKH");
-
             txtTenKH.DataBindings.Clear();
             txtTenKH.DataBindings.Add("Text", dgvKhachHang.DataSource, "TenKH");
-
             txtTuoiKH.DataBindings.Clear();
             txtTuoiKH.DataBindings.Add("Text", dgvKhachHang.DataSource, "Diachi");
-
             cboGioiTinh.DataBindings.Clear();
             cboGioiTinh.DataBindings.Add("Text", dgvKhachHang.DataSource, "GioiTinh");
         }
@@ -112,17 +109,16 @@ namespace QLSieuThi.GUI
         }
 
         public void setnull()
-        {
-            //txtMaKH.Text = "";
+        {           
             txtTenKH.Text = "";
             txtTuoiKH.Text = "";
             cboGioiTinh.Text = "";
         }
 
-        bool tmp = false;
+        bool state = false;
         private void btnThem_Click(object sender, EventArgs e)
         {
-            tmp = true;
+            state = true;
             TangMa();
             unLockControl();
             btnXoa.Enabled = false;
@@ -134,7 +130,7 @@ namespace QLSieuThi.GUI
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            tmp = false;
+            state = false;
             unLockControl();
             btnLuu.Enabled = true;
             btnXoa.Enabled = false;
@@ -152,7 +148,7 @@ namespace QLSieuThi.GUI
                    // cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@Makh", txtMaKH.Text.Trim());
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Đã xóa!");
+                    //MessageBox.Show("Đã xóa!");
                     KetNoi();
                     LoadData();
                 }
@@ -219,7 +215,7 @@ namespace QLSieuThi.GUI
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
-            if (tmp == true)
+            if (state == true)
             {
                 try
                 {
@@ -232,7 +228,7 @@ namespace QLSieuThi.GUI
                     cmd.Parameters.AddWithValue("@GioiTinh", cboGioiTinh.Text.Trim());
                     cmd.Parameters.AddWithValue("@Tuoi", txtTuoiKH.Text.Trim());
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Đã thêm!");
+                    //MessageBox.Show("Đã thêm!");
                     KetNoi();
                     LoadData();
                     LockControl();
@@ -241,7 +237,7 @@ namespace QLSieuThi.GUI
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Không thêm được!" + ex.Message);
+                    MessageBox.Show("Không thêm được khách hàng" + ex.Message);
                 }
             }
             else
@@ -257,7 +253,7 @@ namespace QLSieuThi.GUI
                     cmd.Parameters.AddWithValue("@Tuoi", txtTuoiKH.Text.Trim());
                     cmd.Parameters.AddWithValue("@GioiTinh", cboGioiTinh.Text.Trim());
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Đã sửa");
+                    //MessageBox.Show("Đã sửa");
                     KetNoi();
                     LoadData();
                     LockControl();
@@ -266,13 +262,14 @@ namespace QLSieuThi.GUI
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Không sửa được!" + ex.Message);
+                    MessageBox.Show("Không sửa được khách hàng!" + ex.Message);
                 }
             }
         }
 
+        private void dgvKhachHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
-
-
+        }
     }
 }
