@@ -43,6 +43,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtMaKH = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cboHangHoa = new System.Windows.Forms.ComboBox();
             this.dgvKhachHang = new System.Windows.Forms.DataGridView();
             this.MaKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -61,7 +62,6 @@
             this.ThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnHuy = new System.Windows.Forms.Button();
             this.btnBanHang = new System.Windows.Forms.Button();
-            this.cboHangHoa = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).BeginInit();
@@ -196,6 +196,14 @@
             this.groupBox2.TabIndex = 29;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chi Tiết";
+            // 
+            // cboHangHoa
+            // 
+            this.cboHangHoa.FormattingEnabled = true;
+            this.cboHangHoa.Location = new System.Drawing.Point(123, 49);
+            this.cboHangHoa.Name = "cboHangHoa";
+            this.cboHangHoa.Size = new System.Drawing.Size(166, 21);
+            this.cboHangHoa.TabIndex = 27;
             // 
             // dgvKhachHang
             // 
@@ -342,6 +350,7 @@
             this.btnHuy.Text = "Hủy";
             this.btnHuy.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnHuy.UseVisualStyleBackColor = false;
+          
             // 
             // btnBanHang
             // 
@@ -356,14 +365,6 @@
             this.btnBanHang.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnBanHang.UseVisualStyleBackColor = false;
             this.btnBanHang.Click += new System.EventHandler(this.btnBanHang_Click);
-            // 
-            // cboHangHoa
-            // 
-            this.cboHangHoa.FormattingEnabled = true;
-            this.cboHangHoa.Location = new System.Drawing.Point(123, 49);
-            this.cboHangHoa.Name = "cboHangHoa";
-            this.cboHangHoa.Size = new System.Drawing.Size(166, 21);
-            this.cboHangHoa.TabIndex = 27;
             // 
             // frmBanHang
             // 
