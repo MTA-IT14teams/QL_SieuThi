@@ -49,6 +49,8 @@ namespace QLSieuThi.GUI
                 //kn.Close();
             }
         }
+
+
         private void frmKhoHang_Load(object sender, EventArgs e)
         {
             ketnoi();
@@ -63,6 +65,7 @@ namespace QLSieuThi.GUI
             txtDiaChi.Text = dgvKhoHang.Rows[index].Cells[3].Value.ToString();
 
         }
+        // thêm
         string them;
         private void btnThem_Click(object sender, EventArgs e)
         {
@@ -89,6 +92,7 @@ namespace QLSieuThi.GUI
                 //kn.Close();
             }
         }
+        // sửa
         string sua;
         private void btnSua_Click(object sender, EventArgs e)
         {
@@ -116,6 +120,8 @@ namespace QLSieuThi.GUI
                 // kn.Close();
             }
         }
+
+        // xóa
         string xoa;
         private void btnXoa_Click(object sender, EventArgs e)
         {
@@ -146,11 +152,13 @@ namespace QLSieuThi.GUI
             }
         }
 
+        //refresh
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             ketnoi();
             dgvKhoHang_Click(sender, e);
         }
+        // tìm kiếm
         string sqlTimKiem;
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
