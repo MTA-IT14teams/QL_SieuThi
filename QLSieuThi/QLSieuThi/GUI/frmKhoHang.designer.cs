@@ -163,6 +163,7 @@
             this.dgvKhoHang.GridColor = System.Drawing.SystemColors.ControlLight;
             this.dgvKhoHang.Location = new System.Drawing.Point(301, 140);
             this.dgvKhoHang.Name = "dgvKhoHang";
+            this.dgvKhoHang.RowHeadersVisible = false;
             this.dgvKhoHang.Size = new System.Drawing.Size(740, 398);
             this.dgvKhoHang.TabIndex = 64;
             this.dgvKhoHang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKhoHang_CellContentClick);

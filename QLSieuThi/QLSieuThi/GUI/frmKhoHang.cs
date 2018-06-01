@@ -38,7 +38,7 @@ namespace QLSieuThi.GUI
             }
             catch
             {
-                MessageBox.Show("Loi Ket Noi Vui Long Kiem Tra Lai !");
+                MessageBox.Show("Lỗi kết nối vui lòng kiểm tra lại !");
 
             }
             finally
@@ -82,7 +82,7 @@ namespace QLSieuThi.GUI
             }
             catch
             {
-                MessageBox.Show("Lỗi, không thêm được!");
+                MessageBox.Show("Lỗi, không thêm được! Vui lòng thử lại");
             }
             finally
             {
@@ -110,7 +110,7 @@ namespace QLSieuThi.GUI
             }
             catch
             {
-                MessageBox.Show("Lỗi, không sửa được!");
+                MessageBox.Show("Lỗi, không sửa được! Vui lòng thử lại");
             }
             finally
             {
@@ -141,7 +141,7 @@ namespace QLSieuThi.GUI
             }
             catch
             {
-                MessageBox.Show("Lỗi, không xóa được!");
+                MessageBox.Show("Lỗi, không xóa được! Vui lòng thử lại");
             }
             finally
             {
@@ -179,7 +179,7 @@ namespace QLSieuThi.GUI
             }
             catch
             {
-                MessageBox.Show(" không tìm thấy!");
+                MessageBox.Show(" Không tìm thấy!");
             }
             finally
             {
