@@ -285,11 +285,10 @@ namespace QLSieuThi.GUI
         {
             SqlConnection conn = new SqlConnection(DataAccess.ConnectionString.connectionString);
             conn.Open();
-           
             string sql = "";
             if(cbbKieuTK.Text=="Theo mã hàng hóa")
             {
-                sql = "select *from HangHoa Where MaHH='" + txtTimKiem.Text.Trim() + "'";
+                sql = "select *from HangHoa where MaHH='" + txtTimKiem.Text.Trim() + "'";
             }
             if (cbbKieuTK.Text == "Theo tên hàng hóa")
             {
