@@ -75,10 +75,10 @@ namespace QLSieuThi.GUI
             txtMaKH.DataBindings.Add("Text", dgvKhachHang.DataSource, "MaKH");
             txtTenKH.DataBindings.Clear();
             txtTenKH.DataBindings.Add("Text", dgvKhachHang.DataSource, "TenKH");
-            txtTuoiKH.DataBindings.Clear();
-            txtTuoiKH.DataBindings.Add("Text", dgvKhachHang.DataSource, "Diachi");
             cboGioiTinh.DataBindings.Clear();
-            cboGioiTinh.DataBindings.Add("Text", dgvKhachHang.DataSource, "GioiTinh");
+            cboGioiTinh.DataBindings.Add("Text", dgvKhachHang.DataSource, "GioiTinh");     
+            txtTuoiKH.DataBindings.Clear();
+            txtTuoiKH.DataBindings.Add("Text", dgvKhachHang.DataSource, "TuoiKH");
         }
 
         private void frmKhachHang_Load(object sender, EventArgs e)
@@ -140,7 +140,7 @@ namespace QLSieuThi.GUI
         {
             try
             {
-                if (MessageBox.Show("Bạn có muốn xóa " + txtTenKH.Text.Trim() + " khỏi công ty không?", "Xóa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                if (MessageBox.Show("Bạn có muốn xóa " + txtTenKH.Text.Trim() + " khỏi danh sách không?", "Xóa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
                     SqlConnection conn = new SqlConnection(DataAccess.ConnectionString.connectionString);
                     conn.Open();
@@ -179,33 +179,34 @@ namespace QLSieuThi.GUI
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(DataAccess.ConnectionString.connectionString);
-            conn.Open();
-            string sql = "";
+            try { 
+                SqlConnection conn = new SqlConnection(DataAccess.ConnectionString.connectionString);
+                conn.Open();
+                string sql = "";
 
-            if (cbbKieuTK.Text == "Theo Mã Khách Hàng")
-            {
-                sql = "select *from KhachHang where MaKH = '" + txtTimKiem.Text.Trim() + "'";
-            }
-            else if (cbbKieuTK.Text == "Theo Tên Khách Hàng")
-            {
-                sql = "select *from KhachHang where TenKH like N'%" + txtTimKiem.Text.Trim() + "%'";
-            }
-            else if (cbbKieuTK.Text == "Theo Giới Tính")
-            {
-                sql = "select *from KhachHang where GioiTinh = '" + txtTimKiem.Text.Trim() + "'";
-            }
+                if (cbbKieuTK.Text == "Theo Mã Khách Hàng")
+                {
+                    sql = "select *from KhachHang where MaKH = '" + txtTimKiem.Text.Trim() + "'";
+                }
+                else if (cbbKieuTK.Text == "Theo Tên Khách Hàng")
+                {
+                    sql = "select *from KhachHang where TenKH like N'%" + txtTimKiem.Text.Trim() + "%'";
+                }
+                else if (cbbKieuTK.Text == "Theo Giới Tính")
+                {
+                    sql = "select *from KhachHang where GioiTinh = N'" + txtTimKiem.Text.Trim() + "'";
+                }
 
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            dgvKhachHang.DataSource = dt;
-        }
-
-        private void txtTimKiem_TextChanged(object sender, EventArgs e)
-        {
-            
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                dgvKhachHang.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.Message);
+            }
         }
 
         private void dgvKhachHang_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)

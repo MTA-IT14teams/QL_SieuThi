@@ -283,31 +283,38 @@ namespace QLSieuThi.GUI
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(DataAccess.ConnectionString.connectionString);
-            conn.Open();
-           
-            string sql = "";
-            if(cbbKieuTK.Text=="Theo mã hàng hóa")
+            try
             {
-                sql = "select *from HangHoa Where MaHH='" + txtTimKiem.Text.Trim() + "'";
+                SqlConnection conn = new SqlConnection(DataAccess.ConnectionString.connectionString);
+                conn.Open();
+
+                string sql = "";
+                if (cbbKieuTK.Text == "Theo mã hàng hóa")
+                {
+                    sql = "select *from HangHoa Where MaHH='" + txtTimKiem.Text.Trim() + "'";
+                }
+                if (cbbKieuTK.Text == "Theo tên hàng hóa")
+                {
+                    sql = "select *from HangHoa Where TenHH like N'%" + txtTimKiem.Text.Trim() + "'";
+                }
+                if (cbbKieuTK.Text == "Theo chủng loại")
+                {
+                    sql = "select *from HangHoa Where ChungLoai like N'%" + txtTimKiem.Text.Trim() + "'";
+                }
+                if (cbbKieuTK.Text == "Theo nơi sản xuất")
+                {
+                    sql = "select *from HangHoa Where NoiSX like N'%" + txtTimKiem.Text.Trim() + "'";
+                }
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                dgvHangHoa.DataSource = dt;
             }
-            if (cbbKieuTK.Text == "Theo tên hàng hóa")
+            catch (Exception ex)
             {
-                sql = "select *from HangHoa Where TenHH like N'%" + txtTimKiem.Text.Trim() + "'";
+                MessageBox.Show(ex.Message);
             }
-            if (cbbKieuTK.Text == "Theo chủng loại")
-            {
-                sql = "select *from HangHoa Where ChungLoai like N'%" + txtTimKiem.Text.Trim() + "'";
-            }
-            if (cbbKieuTK.Text == "Theo nơi sản xuất")
-            {
-                sql = "select *from HangHoa Where NoiSX like N'%" + txtTimKiem.Text.Trim() + "'";
-            }
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            dgvHangHoa.DataSource = dt;
         }
 
         private void dgvHangHoa_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
