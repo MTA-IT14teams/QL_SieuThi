@@ -27,8 +27,6 @@ namespace QLSieuThi.GUI
             {
                 SqlConnection kn = new SqlConnection(DataAccess.ThamSoKetNoi.stringConnect);
                 kn.Open();
-                //SqlConnection kn = new SqlConnection(@"Data Source=ADMIN-PC\SQLSERVEREXPRESS;Initial Catalog=QL_GV_HS_THPT;Integrated Security=True");
-                //kn.Open();
                 string sql = "select * from KhoHang";
                 SqlCommand commandsql = new SqlCommand(sql, kn);//thuc thi cac cau lenh trong sql
                 SqlDataAdapter com = new SqlDataAdapter(commandsql);//van chuyen du lieu
@@ -45,8 +43,6 @@ namespace QLSieuThi.GUI
             {
                 SqlConnection kn = new SqlConnection(DataAccess.ThamSoKetNoi.stringConnect);
                 kn.Close();
-                //SqlConnection kn = new SqlConnection(@"Data Source=ADMIN-PC\SQLSERVEREXPRESS;Initial Catalog=QL_GV_HS_THPT;Integrated Security=True");
-                //kn.Close();
             }
         }
 
@@ -73,8 +69,6 @@ namespace QLSieuThi.GUI
             {
                 SqlConnection kn = new SqlConnection(DataAccess.ThamSoKetNoi.stringConnect);
                 kn.Open();
-                //SqlConnection kn = new SqlConnection(@"Data Source=ADMIN-PC\SQLSERVEREXPRESS;Initial Catalog=QL_GV_HS_THPT;Integrated Security=True");
-                // kn.Open();
                 them = "insert into KhoHang values('" + txtMaKho.Text + "',N'" + txtTenKho.Text + "',N'" + txtMaThuKho.Text + "',N'" + txtDiaChi.Text + "')";
                 SqlCommand commandthem = new SqlCommand(them, kn);
                 commandthem.ExecuteNonQuery();
@@ -88,8 +82,6 @@ namespace QLSieuThi.GUI
             {
                 SqlConnection kn = new SqlConnection(DataAccess.ThamSoKetNoi.stringConnect);
                 kn.Close();
-                //SqlConnection kn = new SqlConnection(@"Data Source=ADMIN-PC\SQLSERVEREXPRESS;Initial Catalog=QL_GV_HS_THPT;Integrated Security=True");
-                //kn.Close();
             }
         }
         // sửa
@@ -100,10 +92,7 @@ namespace QLSieuThi.GUI
             {
                 SqlConnection kn = new SqlConnection(DataAccess.ThamSoKetNoi.stringConnect);
                 kn.Open();
-                //SqlConnection kn = new SqlConnection(@"Data Source=ADMIN-PC\SQLSERVEREXPRESS;Initial Catalog=QL_GV_HS_THPT;Integrated Security=True");
-                // kn.Open();
                 sua = "update  KhoHang set TenKho=N'" + txtTenKho.Text + "',DiaChi=N'" + txtDiaChi.Text + "' where MaKho='" + txtMaKho.Text + "'";
-;
                 SqlCommand commandsua = new SqlCommand(sua, kn);
                 commandsua.ExecuteNonQuery();
                 ketnoi();
@@ -116,8 +105,7 @@ namespace QLSieuThi.GUI
             {
                 SqlConnection kn = new SqlConnection(DataAccess.ThamSoKetNoi.stringConnect);
                 kn.Close();
-                //SqlConnection kn = new SqlConnection(@"Data Source=ADMIN-PC\SQLSERVEREXPRESS;Initial Catalog=QL_GV_HS_THPT;Integrated Security=True");
-                // kn.Close();
+                
             }
         }
 
@@ -130,8 +118,6 @@ namespace QLSieuThi.GUI
             {
                 SqlConnection kn = new SqlConnection(DataAccess.ThamSoKetNoi.stringConnect);
                 kn.Open();
-                // SqlConnection kn = new SqlConnection(@"Data Source=ADMIN-PC\SQLSERVEREXPRESS;Initial Catalog=QL_GV_HS_THPT;Integrated Security=True");
-                // kn.Open();
                 xoa = "delete  KhoHang where MaKho='" + txtMaKho.Text + "'";
                 SqlCommand commandxoa = new SqlCommand(xoa, kn);
         
@@ -147,8 +133,6 @@ namespace QLSieuThi.GUI
             {
                 SqlConnection kn = new SqlConnection(DataAccess.ThamSoKetNoi.stringConnect);
                 kn.Close();
-                // SqlConnection kn = new SqlConnection(@"Data Source=ADMIN-PC\SQLSERVEREXPRESS;Initial Catalog=QL_GV_HS_THPT;Integrated Security=True");
-                // kn.Close();
             }
         }
 
@@ -166,8 +150,7 @@ namespace QLSieuThi.GUI
             {
                 SqlConnection conn = new SqlConnection(DataAccess.ThamSoKetNoi.stringConnect);
                 conn.Open();
-                //SqlConnection conn = new SqlConnection(@"Data Source=ADMIN-PC\SQLSERVEREXPRESS;Initial Catalog=QL_GV_HS_THPT;Integrated Security=True");
-                // conn.Open();
+
                 sqlTimKiem = "SELECT *FROM KhoHang where MaKho = '" + txtTimKiem.Text.Trim() + "'";
                 SqlCommand cmd = new SqlCommand(sqlTimKiem, conn);
                 cmd.Parameters.AddWithValue("MaKho", txtTimKiem.Text.Trim());
@@ -187,10 +170,6 @@ namespace QLSieuThi.GUI
                 kn.Close();
             }
         }
-
-        private void txtMaKho_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
