@@ -176,7 +176,13 @@ namespace QLSieuThi.GUI
             btnSua.Enabled = true;
             btnXoa.Enabled = true;
         }
-
+        private bool DemDong()
+        {
+            if (dgvKhachHang.RowCount > 1)
+                return true;
+            else 
+                return false;
+        }
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
             try { 
@@ -202,6 +208,9 @@ namespace QLSieuThi.GUI
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 dgvKhachHang.DataSource = dt;
+
+                if (DemDong() == false)
+                    MessageBox.Show("Không có khách hàng bạn cần tìm");
             }
             catch (Exception ex)
             {
@@ -268,9 +277,5 @@ namespace QLSieuThi.GUI
             }
         }
 
-        private void dgvKhachHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }
