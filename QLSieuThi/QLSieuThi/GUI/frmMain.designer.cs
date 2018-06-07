@@ -149,35 +149,35 @@
             // btnNhanVien
             // 
             this.btnNhanVien.Name = "btnNhanVien";
-            this.btnNhanVien.Size = new System.Drawing.Size(152, 22);
+            this.btnNhanVien.Size = new System.Drawing.Size(139, 22);
             this.btnNhanVien.Text = "Nhân Viên";
             this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
             // 
             // btnKhachHang
             // 
             this.btnKhachHang.Name = "btnKhachHang";
-            this.btnKhachHang.Size = new System.Drawing.Size(152, 22);
+            this.btnKhachHang.Size = new System.Drawing.Size(139, 22);
             this.btnKhachHang.Text = "Khách Hàng";
             this.btnKhachHang.Click += new System.EventHandler(this.QLKhachHang_Click);
             // 
             // btnBanHang
             // 
             this.btnBanHang.Name = "btnBanHang";
-            this.btnBanHang.Size = new System.Drawing.Size(152, 22);
+            this.btnBanHang.Size = new System.Drawing.Size(139, 22);
             this.btnBanHang.Text = "Bán Hàng";
             this.btnBanHang.Click += new System.EventHandler(this.btnBanHang_Click);
             // 
             // btnKhoHang
             // 
             this.btnKhoHang.Name = "btnKhoHang";
-            this.btnKhoHang.Size = new System.Drawing.Size(152, 22);
+            this.btnKhoHang.Size = new System.Drawing.Size(139, 22);
             this.btnKhoHang.Text = "Kho Hàng";
             this.btnKhoHang.Click += new System.EventHandler(this.btnKhoHang_Click);
             // 
             // btnHangHoa
             // 
             this.btnHangHoa.Name = "btnHangHoa";
-            this.btnHangHoa.Size = new System.Drawing.Size(152, 22);
+            this.btnHangHoa.Size = new System.Drawing.Size(139, 22);
             this.btnHangHoa.Text = "Hàng Hóa";
             this.btnHangHoa.Click += new System.EventHandler(this.btnHangHoa_Click);
             // 

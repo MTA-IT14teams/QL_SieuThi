@@ -17,10 +17,6 @@ namespace QLSieuThi.GUI
             InitializeComponent();
         }
 
-        private void dgvKhoHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
         private void ketnoi()
         {
             try
@@ -37,7 +33,6 @@ namespace QLSieuThi.GUI
             catch
             {
                 MessageBox.Show("Lỗi kết nối vui lòng kiểm tra lại !");
-
             }
             finally
             {
@@ -61,6 +56,7 @@ namespace QLSieuThi.GUI
             txtDiaChi.Text = dgvKhoHang.Rows[index].Cells[3].Value.ToString();
 
         }
+
         // thêm
         string them;
         private void btnThem_Click(object sender, EventArgs e)
@@ -84,6 +80,7 @@ namespace QLSieuThi.GUI
                 kn.Close();
             }
         }
+
         // sửa
         string sua;
         private void btnSua_Click(object sender, EventArgs e)

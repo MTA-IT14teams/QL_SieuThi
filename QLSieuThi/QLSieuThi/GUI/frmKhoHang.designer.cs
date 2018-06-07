@@ -237,7 +237,7 @@
             this.txtMaKho.Name = "txtMaKho";
             this.txtMaKho.Size = new System.Drawing.Size(172, 20);
             this.txtMaKho.TabIndex = 72;
-            this.txtMaKho.TextChanged += new System.EventHandler(this.txtMaKho_TextChanged);
+//            this.txtMaKho.TextChanged += new System.EventHandler(this.txtMaKho_TextChanged);
             // 
             // label2
             // 
