@@ -50,3 +50,6 @@ C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLS
 C:\Users\vuman\Desktop\git.Recovery\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe.licenses
 C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csprojResolveAssemblyReference.cache
 C:\Users\vuman\Desktop\Github\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.GUI.frmHangHoa.resources
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe.config
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
+D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
