@@ -60,7 +60,6 @@ namespace QLSieuThi.GUI
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 DataView dv = new DataView(dt);
-
                 dgvKhachHang.DataSource = dv;
             }
             catch (Exception ex)
@@ -113,7 +112,7 @@ namespace QLSieuThi.GUI
 
         public void setnull()
         {
-            //txtMaKH.Text = "";
+           
             txtTenKH.Text = "";
             txtTuoiKH.Text = "";
             cboGioiTinh.Text = "";
@@ -149,7 +148,7 @@ namespace QLSieuThi.GUI
                     SqlConnection conn = new SqlConnection(DataAccess.ConnectionString.connectionString);
                     conn.Open();
                     SqlCommand cmd = new SqlCommand("Delete KhachHang where MaKH = @Makh", conn);
-                   // cmd.CommandType = CommandType.StoredProcedure;
+                 
                     cmd.Parameters.AddWithValue("@Makh", txtMaKH.Text.Trim());
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Đã xóa!");
@@ -244,6 +243,7 @@ namespace QLSieuThi.GUI
                     MessageBox.Show("Không thêm được!" + ex.Message);
                 }
             }
+
             else
             {
                 try
@@ -270,9 +270,5 @@ namespace QLSieuThi.GUI
                 }
             }
         }
-
-
-
-
     }
 }
