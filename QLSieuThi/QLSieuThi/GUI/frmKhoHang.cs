@@ -101,8 +101,7 @@ namespace QLSieuThi.GUI
             finally
             {
                 SqlConnection kn = new SqlConnection(DataAccess.ThamSoKetNoi.stringConnect);
-                kn.Close();
-                
+                kn.Close();             
             }
         }
 
@@ -110,7 +109,6 @@ namespace QLSieuThi.GUI
         string xoa;
         private void btnXoa_Click(object sender, EventArgs e)
         {
-
             try
             {
                 SqlConnection kn = new SqlConnection(DataAccess.ThamSoKetNoi.stringConnect);
