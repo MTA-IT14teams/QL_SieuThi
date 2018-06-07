@@ -32,7 +32,7 @@ namespace QLSieuThi.GUI
             }
             catch
             {
-                MessageBox.Show("Lỗi kết nối vui lòng kiểm tra lại !");
+                MessageBox.Show("Lỗi kết nối! Vui lòng kiểm tra lại !");
             }
             finally
             {
