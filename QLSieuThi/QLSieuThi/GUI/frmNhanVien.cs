@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
+using QLSieuThi.Demo;
 namespace QLSieuThi.GUI
 {
     public partial class frmNhanVien : Form
@@ -188,6 +188,23 @@ namespace QLSieuThi.GUI
         private void dgvNhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void btnXuatFile_Click(object sender, EventArgs e)
+        {
+            files.ExportToExcel(dgvNhanVien);
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Bạn chắc chắn muốn thoát?", "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.Yes)
+            {
+
+                this.Hide();
+            }
+            else
+                frmNhanVien_Load(sender, e);
         }
     }
 }

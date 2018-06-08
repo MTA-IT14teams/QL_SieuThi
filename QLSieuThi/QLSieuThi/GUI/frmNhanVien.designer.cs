@@ -47,14 +47,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtTenNV = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtChucVu = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.cbxGioiTinh = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtSDT = new System.Windows.Forms.TextBox();
+            this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.txtSDT = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtChucVu = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cbxGioiTinh = new System.Windows.Forms.ComboBox();
+            this.btnXuatFile = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
             this.SuspendLayout();
             // 
@@ -138,7 +140,7 @@
             // 
             this.txtTimKiem.Location = new System.Drawing.Point(715, 91);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(226, 20);
+            this.txtTimKiem.Size = new System.Drawing.Size(184, 20);
             this.txtTimKiem.TabIndex = 61;
             // 
             // btnTimKiem
@@ -148,9 +150,9 @@
             this.btnTimKiem.ForeColor = System.Drawing.Color.Black;
             this.btnTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("btnTimKiem.Image")));
             this.btnTimKiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTimKiem.Location = new System.Drawing.Point(947, 78);
+            this.btnTimKiem.Location = new System.Drawing.Point(905, 83);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(96, 42);
+            this.btnTimKiem.Size = new System.Drawing.Size(96, 41);
             this.btnTimKiem.TabIndex = 62;
             this.btnTimKiem.Text = "Tìm Kiếm";
             this.btnTimKiem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -171,7 +173,7 @@
             this.dgvNhanVien.GridColor = System.Drawing.SystemColors.ControlLight;
             this.dgvNhanVien.Location = new System.Drawing.Point(325, 131);
             this.dgvNhanVien.Name = "dgvNhanVien";
-            this.dgvNhanVien.Size = new System.Drawing.Size(724, 398);
+            this.dgvNhanVien.Size = new System.Drawing.Size(877, 398);
             this.dgvNhanVien.TabIndex = 63;
             this.dgvNhanVien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNhanVien_CellContentClick);
             this.dgvNhanVien.Click += new System.EventHandler(this.dgvNhanVien_Click);
@@ -253,12 +255,40 @@
             this.label3.TabIndex = 66;
             this.label3.Text = "Tên NV";
             // 
-            // txtChucVu
+            // label6
             // 
-            this.txtChucVu.Location = new System.Drawing.Point(110, 249);
-            this.txtChucVu.Name = "txtChucVu";
-            this.txtChucVu.Size = new System.Drawing.Size(203, 20);
-            this.txtChucVu.TabIndex = 69;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(36, 379);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(55, 19);
+            this.label6.TabIndex = 72;
+            this.label6.Text = "Địa Chỉ";
+            // 
+            // txtDiaChi
+            // 
+            this.txtDiaChi.Location = new System.Drawing.Point(110, 380);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(203, 20);
+            this.txtDiaChi.TabIndex = 73;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(36, 440);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(38, 19);
+            this.label7.TabIndex = 74;
+            this.label7.Text = "SĐT";
+            // 
+            // txtSDT
+            // 
+            this.txtSDT.Location = new System.Drawing.Point(110, 441);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Size = new System.Drawing.Size(203, 20);
+            this.txtSDT.TabIndex = 75;
+            this.txtSDT.UseWaitCursor = true;
             // 
             // label4
             // 
@@ -269,6 +299,23 @@
             this.label4.Size = new System.Drawing.Size(65, 19);
             this.label4.TabIndex = 68;
             this.label4.Text = "Chức Vụ";
+            // 
+            // txtChucVu
+            // 
+            this.txtChucVu.Location = new System.Drawing.Point(110, 249);
+            this.txtChucVu.Name = "txtChucVu";
+            this.txtChucVu.Size = new System.Drawing.Size(203, 20);
+            this.txtChucVu.TabIndex = 69;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(39, 313);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 19);
+            this.label5.TabIndex = 70;
+            this.label5.Text = "Giới Tính";
             // 
             // cbxGioiTinh
             // 
@@ -282,57 +329,40 @@
             this.cbxGioiTinh.Size = new System.Drawing.Size(200, 21);
             this.cbxGioiTinh.TabIndex = 71;
             // 
-            // label5
+            // btnXuatFile
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(39, 313);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 19);
-            this.label5.TabIndex = 70;
-            this.label5.Text = "Giới Tính";
+            this.btnXuatFile.Image = ((System.Drawing.Image)(resources.GetObject("btnXuatFile.Image")));
+            this.btnXuatFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXuatFile.Location = new System.Drawing.Point(1007, 82);
+            this.btnXuatFile.Name = "btnXuatFile";
+            this.btnXuatFile.Size = new System.Drawing.Size(93, 43);
+            this.btnXuatFile.TabIndex = 108;
+            this.btnXuatFile.Text = "Xuất File";
+            this.btnXuatFile.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXuatFile.UseVisualStyleBackColor = true;
+            this.btnXuatFile.Click += new System.EventHandler(this.btnXuatFile_Click);
             // 
-            // txtDiaChi
+            // btnThoat
             // 
-            this.txtDiaChi.Location = new System.Drawing.Point(110, 380);
-            this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(203, 20);
-            this.txtDiaChi.TabIndex = 73;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(36, 379);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 19);
-            this.label6.TabIndex = 72;
-            this.label6.Text = "Địa Chỉ";
-            // 
-            // txtSDT
-            // 
-            this.txtSDT.Location = new System.Drawing.Point(110, 441);
-            this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(203, 20);
-            this.txtSDT.TabIndex = 75;
-            this.txtSDT.UseWaitCursor = true;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(36, 440);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 19);
-            this.label7.TabIndex = 74;
-            this.label7.Text = "SĐT";
+            this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
+            this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThoat.Location = new System.Drawing.Point(1106, 83);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(96, 41);
+            this.btnThoat.TabIndex = 109;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1080, 473);
+            this.ClientSize = new System.Drawing.Size(1214, 478);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnXuatFile);
             this.Controls.Add(this.txtSDT);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtDiaChi);
@@ -376,19 +406,21 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtTenNV;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtChucVu;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox cbxGioiTinh;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtDiaChi;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtSDT;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaNV;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenNV;
         private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
         private System.Windows.Forms.DataGridViewTextBoxColumn Luong;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtDiaChi;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtSDT;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtChucVu;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox cbxGioiTinh;
+        private System.Windows.Forms.Button btnXuatFile;
+        private System.Windows.Forms.Button btnThoat;
     }
 }
