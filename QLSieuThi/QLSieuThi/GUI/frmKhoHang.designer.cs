@@ -49,6 +49,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnXuatFile = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhoHang)).BeginInit();
             this.SuspendLayout();
             // 
@@ -163,7 +165,7 @@
             this.dgvKhoHang.GridColor = System.Drawing.SystemColors.ControlLight;
             this.dgvKhoHang.Location = new System.Drawing.Point(301, 140);
             this.dgvKhoHang.Name = "dgvKhoHang";
-            this.dgvKhoHang.Size = new System.Drawing.Size(740, 398);
+            this.dgvKhoHang.Size = new System.Drawing.Size(941, 398);
             this.dgvKhoHang.TabIndex = 64;
             this.dgvKhoHang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKhoHang_CellContentClick);
             this.dgvKhoHang.Click += new System.EventHandler(this.dgvKhoHang_Click);
@@ -265,12 +267,40 @@
             this.label5.TabIndex = 77;
             this.label5.Text = "Địa Chỉ";
             // 
+            // btnXuatFile
+            // 
+            this.btnXuatFile.Image = ((System.Drawing.Image)(resources.GetObject("btnXuatFile.Image")));
+            this.btnXuatFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXuatFile.Location = new System.Drawing.Point(1047, 91);
+            this.btnXuatFile.Name = "btnXuatFile";
+            this.btnXuatFile.Size = new System.Drawing.Size(93, 43);
+            this.btnXuatFile.TabIndex = 109;
+            this.btnXuatFile.Text = "Xuất File";
+            this.btnXuatFile.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXuatFile.UseVisualStyleBackColor = true;
+            this.btnXuatFile.Click += new System.EventHandler(this.btnXuatFile_Click);
+            // 
+            // btnThoat
+            // 
+            this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
+            this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThoat.Location = new System.Drawing.Point(1146, 92);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(96, 41);
+            this.btnThoat.TabIndex = 110;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
             // frmKhoHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1053, 488);
+            this.ClientSize = new System.Drawing.Size(1259, 488);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnXuatFile);
             this.Controls.Add(this.txtDiaChi);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtMaThuKho);
@@ -318,5 +348,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TenKho;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaThuKho;
         private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
+        private System.Windows.Forms.Button btnXuatFile;
+        private System.Windows.Forms.Button btnThoat;
     }
 }

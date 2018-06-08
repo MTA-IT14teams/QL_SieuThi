@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using QLSieuThi.Demo;
 namespace QLSieuThi.GUI
 {
     public partial class frmKhoHang : Form
@@ -183,6 +184,23 @@ namespace QLSieuThi.GUI
         private void txtMaKho_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnXuatFile_Click(object sender, EventArgs e)
+        {
+            files.ExportToExcel(dgvKhoHang);
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Bạn chắc chắn muốn thoát?", "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.Yes)
+            {
+
+                this.Hide();
+            }
+            else
+                frmKhoHang_Load(sender, e);
         }
     }
 }
