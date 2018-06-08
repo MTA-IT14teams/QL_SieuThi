@@ -20,12 +20,15 @@
             base.Dispose(disposing);
         }
 
+
+
         #region Windows Form Designer generated code
 
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
+        /// 
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -257,7 +260,7 @@
             this.NgayLap});
             this.dgvThongTin.Location = new System.Drawing.Point(323, 189);
             this.dgvThongTin.Name = "dgvThongTin";
-            this.dgvThongTin.Size = new System.Drawing.Size(408, 298);
+            this.dgvThongTin.Size = new System.Drawing.Size(408, 284);
             this.dgvThongTin.TabIndex = 103;
             // 
             // MaHD
@@ -314,7 +317,7 @@
             this.ThanhTien});
             this.dgvChiTiet.Location = new System.Drawing.Point(737, 189);
             this.dgvChiTiet.Name = "dgvChiTiet";
-            this.dgvChiTiet.Size = new System.Drawing.Size(317, 298);
+            this.dgvChiTiet.Size = new System.Drawing.Size(317, 284);
             this.dgvChiTiet.TabIndex = 105;
             // 
             // MaHH
@@ -350,7 +353,6 @@
             this.btnHuy.Text = "Hủy";
             this.btnHuy.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnHuy.UseVisualStyleBackColor = false;
-          
             // 
             // btnBanHang
             // 

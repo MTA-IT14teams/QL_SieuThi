@@ -149,6 +149,7 @@ namespace QLSieuThi.GUI
             }
             else
             {
+
                 try
                 {
                     SqlConnection conn = new SqlConnection(DataAccess.ConnectionString.connectionString);
@@ -179,6 +180,8 @@ namespace QLSieuThi.GUI
                 }
             }
         }
+
+
 
         private void frmBanHang_Load(object sender, EventArgs e)
         {

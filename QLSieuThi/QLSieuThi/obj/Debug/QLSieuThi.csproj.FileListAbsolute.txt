@@ -75,3 +75,6 @@ D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe.config
 D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
 D:\Năm3moi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
 >>>>>>> c7aea84e3103d621a6925fc28ec61d6430613f65
+C:\Users\Administrator\Desktop\TTN-NS\QL Sieu Thi\QL_SieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe.config
+C:\Users\Administrator\Desktop\TTN-NS\QL Sieu Thi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
+C:\Users\Administrator\Desktop\TTN-NS\QL Sieu Thi\QL_SieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
