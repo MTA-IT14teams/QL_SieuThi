@@ -46,6 +46,7 @@ namespace QLSieuThi.GUI
         {
             ketnoi();
         }
+
         int index;
         private void dgvKhoHang_Click(object sender, EventArgs e)
         {
@@ -137,6 +138,7 @@ namespace QLSieuThi.GUI
             ketnoi();
             dgvKhoHang_Click(sender, e);
         }
+
         // tìm kiếm
         string sqlTimKiem;
         private void btnTimKiem_Click(object sender, EventArgs e)
