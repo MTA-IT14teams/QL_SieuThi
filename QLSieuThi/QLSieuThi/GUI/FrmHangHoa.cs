@@ -98,6 +98,7 @@ namespace QLSieuThi.GUI
 
 
         }
+
         public void LockControl()
         {
             txtMaHH.Enabled = false;
@@ -112,6 +113,7 @@ namespace QLSieuThi.GUI
             btnLuu.Enabled = false;
 
         }
+
         public void unLockControl()
         {
             txtMaHH.Enabled = true;
@@ -152,7 +154,6 @@ namespace QLSieuThi.GUI
         {
             tmp = true;
             setnull();
-            //txtMaHH.Text = TangMa();
             unLockControl();
             btnXoa.Enabled = false;
             btnSua.Enabled = false;
