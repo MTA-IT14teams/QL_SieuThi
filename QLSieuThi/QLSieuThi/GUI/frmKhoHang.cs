@@ -97,7 +97,7 @@ namespace QLSieuThi.GUI
             }
             catch
             {
-                MessageBox.Show("Lỗi, không sửa được! Vui lòng thử lại");
+                MessageBox.Show("Lỗi, không sửa được! Vui lòng thử lại!");
             }
             finally
             {
